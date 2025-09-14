@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RIFF Студия гитары </title>
+
+  <link rel="icon" type="image/png" href="logo.jpg">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="bg-[#fdf6e3] text-[#3b2f2f] font-sans relative">
+
+  <div class="fixed top-0 left-0 w-full bg-[#e0c9a6] text-center py-10 shadow-md z-50 cursor-pointer hover:bg-[#d8b98c] transition"
+       id="video-btn">
+       <h1 class="text-2xl md:text-3xl font-bold tracking-wide" data-aos="fade-up">
+        Видео-приветствие от преподавателя
+       </h1>
+  </div>
+
+  <header class="h-screen flex flex-col items-center justify-center text-center px-4 pt-16 bg-[#fdf6e3]">
+    <img src="logo.jpg" alt="Логотип студии" class="w-100 h-100 mb-6" data-aos="fade-down">
+    <h1 class="text-5xl md:text-7xl font-bold tracking-wide" data-aos="fade-up">
+      RIFF 
+    </h1>
+    <h1 class="text-5xl md:text-7xl font-bold tracking-wide" data-aos="fade-up">
+      Guitar studio
+    </h1>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-6 py-16 space-y-12">
+    <section data-aos="fade-up">
+      <p class="text-lg leading-relaxed text-center">
+        Приветствуем тебя в пространстве, где струны оживают, а аккорды превращаются в эмоции. 
+        Наша студия — это не просто школа игры на гитаре. 
+        Это творческая лаборатория, сообщество единомышленников и сцена для твоего самовыражения.
+      </p>
+    </section>
+
+    <section data-aos="fade-up">
+      <p class="text-lg leading-relaxed text-center">
+        Неважно, хочешь ли ты сыграть у костра свои первые три аккорда 
+        или готовишься к выходу на большую сцену — мы поможем тебе достичь цели. 
+        Здесь тебя ждут:
+      </p>
+      <ul class="mt-6 space-y-4 text-lg">
+        <li class="flex items-start" data-aos="fade-right">
+          <span class="mr-3">🎶</span>
+          Педагоги, которые не учат, а вдохновляют.
+        </li>
+        <li class="flex items-start" data-aos="fade-right" data-aos-delay="150">
+          <span class="mr-3">⭐</span>
+          Индивидуальный подход: мы строим программу под твои цели — будь то блюз, рок или джаз.
+        </li>
+        <li class="flex items-start" data-aos="fade-right" data-aos-delay="300">
+          <span class="mr-3">🔥</span>
+          Атмосфера творчества, где нет места скучным урокам.
+        </li>
+      </ul>
+    </section>
+
+<section class="text-center space-y-8" data-aos="zoom-in">
+  <h2 class="text-3xl md:text-4xl font-bold">
+    Перестай мечтать — начни играть
+  </h2>
+  <p class="text-lg">
+    Запишись на пробное занятие и сделай первый шаг к своей музыкальной мечте.
+  </p>
+  <button id="course-btn"
+     class="inline-block bg-[#d8b98c] hover:bg-[#cfa674] text-black font-semibold px-8 py-4 rounded-full shadow-lg transition-transform transform hover:scale-105">
+     Записаться на занятие
+  </button>
+</section>
+
+<div id="course-modal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 hidden">
+  <div class="relative bg-white rounded-lg shadow-lg w-11/12 md:w-3/4 lg:w-2/3 p-6 space-y-6">
+    <button id="close-course" class="absolute top-2 right-2 text-black text-2xl">&times;</button>
+    <h3 class="text-2xl font-bold text-center text-[#3b2f2f] mb-4">Запись на занятие</h3>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+
+      <div>
+        <img src="WAQR.jpg" alt="QR WhatsApp" class="mx-auto w-40 h-40">
+        <p class="mt-2 text-[#3b2f2f]">Связь со мой по WA</p>
+      </div>
+    
+      <div>
+        <img src="QRTGK.png" alt="QR Telegram" class="mx-auto w-40 h-40">
+        <p class="mt-2 text-[#3b2f2f]">Telegram-канал</p>
+      </div>
+
+      <div>
+        <img src="QRTG.png" alt="QR Telegram" class="mx-auto w-40 h-40">
+        <p class="mt-2 text-[#3b2f2f]">Связь со мой по Telegram</p>
+      </div>
+      
+    </div>
+    <div class="w-full h-64">
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa67f7e2a2aa80fd9d2da8280036825f58adaf865fa06b69905cdd2473c41a607&amp;source=constructor"
+        width="100%" height="100%" frameborder="0" allowfullscreen="true"></iframe>
+    </div>
+  </div>
+</div>
+
+
+  <footer class="bg-[#e0c9a6] text-center py-8 text-[#3b2f2f] space-y-2">
+  <p>📞 Телефон / WhatsApp / Telegram: <a href="tel:+79939238506" class="underline hover:text-black">+7 (993) 923-85-06</a></p>
+  <p>📢 Telegram-канал: <a href="https://t.me/guitarandRiff" target="_blank" class="underline hover:text-black">@guitarandRiff</a></p>
+  <p>🌐 ВКонтакте: <a href="https://vk.com/riffguitarstudio" target="_blank" class="underline hover:text-black">vk.com/riffguitarstudio</a></p>
+  <p>📍 Адрес студии: Москва, Дмитровское шоссе, д. 100с2</p>
+
+<section class="max-w-3xl mx-auto px-6 py-12 text-center text-[#3b2f2f]" data-aos="fade-up">
+  <h2 class="text-2xl font-bold mb-4">О нашей студии</h2>
+  <p class="text-lg leading-relaxed">
+    Наша студия гитары в Москве — это место, где обучение игре на гитаре становится
+    увлекательным и доступным для всех. Мы предлагаем уроки гитары для начинающих и
+    продвинутых, занятия в стиле рок, блюз, джаз, а также помощь тем, кто мечтает сыграть
+    первые аккорды у костра. Опытные преподаватели помогут освоить, акустическую
+    и классическую гитару, подобрать индивидуальную программу и достичь музыкальных целей.
+    Школа гитары — это не только уроки, но и сообщество музыкантов, творческая атмосфера
+    и возможность выступлений на сцене.
+  </p>
+</section>
+
+
+</footer>
+
+  <div id="video-modal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 hidden">
+    <div class="relative bg-white rounded-lg shadow-lg w-11/12 md:w-3/4 lg:w-3/5 p-4">
+      <button id="close-modal" class="absolute top-2 right-2 text-black text-2xl">&times;</button>
+      <video id="guitar-video" src="video.mp4" controls class="w-full h-auto max-h-[80vh] object-contain mx-auto"></video>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+
+    const videoBtn = document.getElementById('video-btn');
+    const videoModal = document.getElementById('video-modal');
+    const closeModal = document.getElementById('close-modal');
+    const guitarVideo = document.getElementById('guitar-video');
+
+    videoBtn.addEventListener('click', () => {
+      videoModal.classList.remove('hidden');
+      guitarVideo.currentTime = 0; 
+      guitarVideo.play();          
+    });
+
+    closeModal.addEventListener('click', () => {
+      videoModal.classList.add('hidden');
+      guitarVideo.pause();
+    });
+
+    videoModal.addEventListener('click', (e) => {
+      if (e.target === videoModal) {
+        videoModal.classList.add('hidden');
+        guitarVideo.pause();
+      }
+    });
+
+    const courseBtn = document.getElementById('course-btn');
+    const courseModal = document.getElementById('course-modal');
+    const closeCourse = document.getElementById('close-course');
+
+    courseBtn.addEventListener('click', () => {
+        courseModal.classList.remove('hidden');
+    });
+
+    closeCourse.addEventListener('click', () => {
+        courseModal.classList.add('hidden');
+    });
+
+    courseModal.addEventListener('click', (e) => {
+    if (e.target === courseModal) {
+        courseModal.classList.add('hidden');
+      }
+    });
+
+  </script>
+</body>
+</html>
